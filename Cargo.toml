@@ -1,0 +1,15 @@
+[package]
+name = "rustchef"
+version = "0.1.0"
+edition = "2021"
+description = "CyberChef-inspired CLI tool in Rust"
+
+[dependencies]
+sha2        = "0.10"
+md-5        = "0.10"
+sha1        = "0.10"
+hex         = "0.4"
+base64      = "0.21"
+urlencoding = "2.1"
+clap        = { version = "=4.4.18", features = ["derive"] }
+regex       = "1.9"

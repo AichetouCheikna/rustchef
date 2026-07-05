@@ -1,0 +1,5 @@
+Contact us at admin@example.com or security@corp.org
+Attacker IPs: 192.168.1.100, 10.0.0.42, 203.0.113.10
+References: https://malware.example.com/payload and http://c2.badactor.net/cmd
+The quick brown fox jumps over the lazy dog.
+Suspicious domain: xn--phishing-test.com
