@@ -1,4 +1,4 @@
-﻿# RustChef
+# RustChef
 
 A CyberChef-inspired CLI data transformation tool written in Rust.
 
@@ -16,29 +16,28 @@ A CyberChef-inspired CLI data transformation tool written in Rust.
 
 ## Quick start
 
-`ash
+```bash
 docker build -t rustchef .
 docker run --rm rustchef --help
 echo "hello" | docker run --rm -i rustchef b64-encode
-`
+```
 
 ## Usage examples
 
-`ash
+```bash
 echo "hello" | cargo run --quiet -- b64-encode
 echo "hello" | cargo run --quiet -- sha256
 echo "Hello World" | cargo run --quiet -- rot13
 cargo run --quiet -- extract-ips -i samples/sample.txt
-echo "hello" | cargo run --quiet -- chain --ops b64encode,hexencode
-`
+```
 
 ## Testing
 
-`ash
+```bash
 cargo test
 cargo fmt --check
 cargo clippy -- -D warnings
-`
+```
 
 ## Author
 
